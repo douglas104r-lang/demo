@@ -1,6 +1,6 @@
 USE [master]
 GO
-/****** Object:  Database [variant26]    Script Date: 28.04.2026 0:32:05 ******/
+/****** Object:  Database [variant26] ******/
 CREATE DATABASE [variant26]
  CONTAINMENT = NONE
  ON  PRIMARY 
@@ -75,7 +75,7 @@ ALTER DATABASE [variant26] SET DELAYED_DURABILITY = DISABLED
 GO
 USE [variant26]
 GO
-/****** Object:  Table [dbo].[Category]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[Category] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -89,7 +89,7 @@ CREATE TABLE [dbo].[Category](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[jobs]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[jobs] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -108,7 +108,7 @@ CREATE TABLE [dbo].[jobs](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[messages]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[messages] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -127,7 +127,7 @@ CREATE TABLE [dbo].[messages](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[migrations]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[migrations] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -142,7 +142,7 @@ CREATE TABLE [dbo].[migrations](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[notifications]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[notifications] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -162,7 +162,7 @@ CREATE TABLE [dbo].[notifications](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Order]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[Order] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -181,7 +181,7 @@ CREATE TABLE [dbo].[Order](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[OrderStatus]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[OrderStatus] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -195,7 +195,7 @@ CREATE TABLE [dbo].[OrderStatus](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[paintings]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[paintings] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -221,7 +221,7 @@ CREATE TABLE [dbo].[paintings](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[PickUpPoint]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[PickUpPoint] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -238,7 +238,7 @@ CREATE TABLE [dbo].[PickUpPoint](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Producer]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[Producer] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -252,7 +252,7 @@ CREATE TABLE [dbo].[Producer](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Product]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[Product] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -276,7 +276,7 @@ CREATE TABLE [dbo].[Product](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ProductInOrder]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[ProductInOrder] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -292,7 +292,7 @@ CREATE TABLE [dbo].[ProductInOrder](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Provider]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[Provider] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -306,7 +306,7 @@ CREATE TABLE [dbo].[Provider](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Role]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[Role] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -320,7 +320,7 @@ CREATE TABLE [dbo].[Role](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Unit]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[Unit] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -334,7 +334,7 @@ CREATE TABLE [dbo].[Unit](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[User]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[User] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -353,7 +353,7 @@ CREATE TABLE [dbo].[User](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[users]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Table [dbo].[users] ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -377,216 +377,63 @@ CREATE TABLE [dbo].[users](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-INSERT [dbo].[Category] ([id], [Name]) VALUES (1, N'Женская обувь')
-INSERT [dbo].[Category] ([id], [Name]) VALUES (2, N'Мужская обувь')
-GO
-SET IDENTITY_INSERT [dbo].[Order] ON 
-
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (1, CAST(N'2025-02-27' AS Date), CAST(N'2025-04-20' AS Date), 1, 4, N'901', 1)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (2, CAST(N'2022-09-28' AS Date), CAST(N'2025-04-21' AS Date), 11, 1, N'902', 1)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (3, CAST(N'2025-03-21' AS Date), CAST(N'2025-04-22' AS Date), 2, 2, N'903', 1)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (4, CAST(N'2025-02-20' AS Date), CAST(N'2025-04-23' AS Date), 11, 3, N'904', 1)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (5, CAST(N'2025-03-17' AS Date), CAST(N'2025-04-24' AS Date), 2, 4, N'905', 1)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (6, CAST(N'2025-03-01' AS Date), CAST(N'2025-04-25' AS Date), 15, 1, N'906', 1)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (7, CAST(N'2025-02-28' AS Date), CAST(N'2025-04-26' AS Date), 3, 2, N'907', 1)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (8, CAST(N'2025-03-31' AS Date), CAST(N'2025-04-27' AS Date), 19, 3, N'908', 2)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (9, CAST(N'2025-04-02' AS Date), CAST(N'2025-04-28' AS Date), 5, 4, N'909', 2)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (10, CAST(N'2025-04-03' AS Date), CAST(N'2025-04-29' AS Date), 19, 4, N'910', 2)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (11, CAST(N'2026-04-26' AS Date), CAST(N'2026-04-27' AS Date), 6, 8, N'1212', 2)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (12, CAST(N'2026-04-26' AS Date), CAST(N'2026-04-28' AS Date), 5, 9, N'1212', 2)
-INSERT [dbo].[Order] ([id], [CreationDate], [DeliveryDate], [PickUpPointId], [UserId], [ReceiptCode], [StatusId]) VALUES (13, CAST(N'2026-04-26' AS Date), CAST(N'2026-04-28' AS Date), 4, 8, N'3423', 2)
-SET IDENTITY_INSERT [dbo].[Order] OFF
-GO
-INSERT [dbo].[OrderStatus] ([id], [Name]) VALUES (1, N'Завершен')
-INSERT [dbo].[OrderStatus] ([id], [Name]) VALUES (2, N'Новый')
-GO
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (1, N'420151', N'Лесной', N'Вишневая', N'32')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (2, N'125061', N'Лесной', N'Подгорная', N'8')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (3, N'630370', N'Лесной', N'Шоссейная', N'24')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (4, N'400562', N'Лесной', N'Зеленая', N'32')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (5, N'614510', N'Лесной', N'Маяковского', N'47')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (6, N'410542', N'Лесной', N'Светлая', N'46')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (7, N'620839', N'Лесной', N'Цветочная', N'8')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (8, N'443890', N'Лесной', N'Коммунистическая', N'1')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (9, N'603379', N'Лесной', N'Спортивная', N'46')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (10, N'603721', N'Лесной', N'Гоголя', N'41')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (11, N'410172', N'Лесной', N'Северная', N'13')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (12, N'614611', N'Лесной', N'Молодежная', N'50')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (13, N'454311', N'Лесной', N'Новая', N'19')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (14, N'660007', N'Лесной', N'Октябрьская', N'19')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (15, N'603036', N'Лесной', N'Садовая', N'4')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (16, N'394060', N'Лесной', N'Фрунзе', N'43')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (17, N'410661', N'Лесной', N'Школьная', N'50')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (18, N'625590', N'Лесной', N'Коммунистическая', N'20')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (19, N'625683', N'Лесной', N'8Марта', N'')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (20, N'450983', N'Лесной', N'Комсомольская', N'26')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (21, N'394782', N'Лесной', N'Чехова', N'3')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (22, N'603002', N'Лесной', N'Дзержинского', N'28')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (23, N'450558', N'Лесной', N'Набережная', N'30')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (24, N'344288', N'Лесной', N'Чехова', N'1')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (25, N'614164', N'Лесной', N' Степная', N'30')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (26, N'394242', N'Лесной', N'Коммунистическая', N'43')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (27, N'660540', N'Лесной', N'Солнечная', N'25')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (28, N'125837', N'Лесной', N'Шоссейная', N'40')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (29, N'125703', N'Лесной', N'Партизанская', N'49')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (30, N'625283', N'Лесной', N'Победы', N'46')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (31, N'614753', N'Лесной', N'Полевая', N'35')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (32, N'426030', N'Лесной', N'Маяковского', N'44')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (33, N'450375', N'Лесной', N'Клубная', N'44')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (34, N'625560', N'Лесной', N'Некрасова', N'12')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (35, N'630201', N'Лесной', N'Комсомольская', N'17')
-INSERT [dbo].[PickUpPoint] ([id], [PostCode], [City], [Street], [Building]) VALUES (36, N'190949', N'Лесной', N'Мичурина', N'26')
-GO
-INSERT [dbo].[Producer] ([id], [Name]) VALUES (1, N'Kari')
-INSERT [dbo].[Producer] ([id], [Name]) VALUES (2, N'Marco Tozzi')
-INSERT [dbo].[Producer] ([id], [Name]) VALUES (3, N'Рос')
-INSERT [dbo].[Producer] ([id], [Name]) VALUES (4, N'Rieker')
-INSERT [dbo].[Producer] ([id], [Name]) VALUES (5, N'Alessio Nesca')
-INSERT [dbo].[Producer] ([id], [Name]) VALUES (6, N'CROSBY')
-GO
-SET IDENTITY_INSERT [dbo].[Product] ON 
-
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (1, N'А112Т4', N'Ботинки', 1, 4990.0000, 1, 1, 1, CAST(3.00 AS Decimal(4, 2)), CAST(6.00 AS Decimal(6, 2)), N'Женские Ботинки демисезонные kari', N'Res/1.jpg')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (2, N'F635R4', N'Ботинки', 1, 3244.0000, 2, 2, 1, CAST(2.00 AS Decimal(4, 2)), CAST(13.00 AS Decimal(6, 2)), N'Ботинки Marco Tozzi женские демисезонные, размер 39, цвет бежевый', N'Res/2.jpg')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (3, N'H782T5', N'Туфли', 1, 4499.0000, 1, 1, 2, CAST(4.00 AS Decimal(4, 2)), CAST(5.00 AS Decimal(6, 2)), N'Туфли kari мужские классика MYZ21AW-450A, размер 43, цвет: черный', N'Res/3.jpg')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (4, N'G783F5', N'Ботинки', 1, 5900.0000, 1, 3, 2, CAST(2.00 AS Decimal(4, 2)), CAST(8.00 AS Decimal(6, 2)), N'Мужские ботинки Рос-Обувь кожаные с натуральным мехом', N'Res/4.jpg')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (5, N'J384T6', N'Ботинки', 1, 3800.0000, 2, 1, 1, CAST(5.00 AS Decimal(4, 2)), CAST(16.00 AS Decimal(6, 2)), N'B3430/14 Полуботинки мужские Rieker', N'Res/5.jpg')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (6, N'D572U8', N'Кроссовки', 1, 4100.0000, 2, 3, 2, CAST(3.00 AS Decimal(4, 2)), CAST(6.00 AS Decimal(6, 2)), N'129615-4 Кроссовки мужские', N'Res/6.jpg')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (7, N'F572H7', N'Туфли', 1, 2700.0000, 1, 2, 1, CAST(2.00 AS Decimal(4, 2)), CAST(14.00 AS Decimal(6, 2)), N'Туфли Marco Tozzi женские летние, размер 39, цвет черный', N'Res/7.jpg')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (8, N'D329H3', N'Полуботинки', 1, 1890.0000, 2, 5, 1, CAST(4.00 AS Decimal(4, 2)), CAST(4.00 AS Decimal(6, 2)), N'Полуботинки Alessio Nesca женские 3-30797-47, размер 37, цвет: бордовый', N'Res/8.jpg')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (9, N'B320R5', N'Туфли', 1, 4300.0000, 1, 4, 1, CAST(2.00 AS Decimal(4, 2)), CAST(6.00 AS Decimal(6, 2)), N'Туфли Rieker женские демисезонные, размер 41, цвет коричневый', N'Res/9.jpg')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (10, N'G432E4', N'Туфли', 1, 2800.0000, 1, 1, 1, CAST(3.00 AS Decimal(4, 2)), CAST(15.00 AS Decimal(6, 2)), N'Туфли kari женские TR-YR-413017, размер 37, цвет: черный', N'Res/10.jpg')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (11, N'S213E3', N'Полуботинки', 1, 2156.0000, 2, 6, 2, CAST(3.00 AS Decimal(4, 2)), CAST(6.00 AS Decimal(6, 2)), N'407700/01-01 Полуботинки мужские CROSBY', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (12, N'E482R4', N'Полуботинки', 1, 1800.0000, 1, 1, 1, CAST(2.00 AS Decimal(4, 2)), CAST(14.00 AS Decimal(6, 2)), N'Полуботинки kari женские MYZ20S-149, размер 41, цвет: черный', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (13, N'S634B5', N'Кеды', 1, 5500.0000, 1, 1, 1, CAST(3.00 AS Decimal(4, 2)), CAST(0.00 AS Decimal(6, 2)), N'Кеды Caprice мужские демисезонные, размер 42, цвет черный', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (14, N'K345R4', N'Полуботинки', 1, 2100.0000, 2, 6, 2, CAST(2.00 AS Decimal(4, 2)), CAST(3.00 AS Decimal(6, 2)), N'407700/01-02 Полуботинки мужские CROSBY', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (15, N'O754F4', N'Туфли', 1, 5400.0000, 2, 1, 1, CAST(4.00 AS Decimal(4, 2)), CAST(18.00 AS Decimal(6, 2)), N'Туфли женские демисезонные Rieker артикул 55073-68/37', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (16, N'G531F4', N'Ботинки', 1, 6600.0000, 1, 1, 1, CAST(12.00 AS Decimal(4, 2)), CAST(9.00 AS Decimal(6, 2)), N'Ботинки женские зимние ROMER арт. 893167-01 Черный', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (17, N'J542F5', N'Тапочки', 1, 500.0000, 1, 1, 2, CAST(13.00 AS Decimal(4, 2)), CAST(0.00 AS Decimal(6, 2)), N'Тапочки мужские Арт.70701-55-67син р.41', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (18, N'B431R5', N'Ботинки', 1, 2700.0000, 2, 4, 2, CAST(2.00 AS Decimal(4, 2)), CAST(5.00 AS Decimal(6, 2)), N'Мужские кожаные ботинки/мужские ботинки', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (19, N'P764G4', N'Туфли', 1, 6800.0000, 1, 6, 1, CAST(15.00 AS Decimal(4, 2)), CAST(15.00 AS Decimal(6, 2)), N'Туфли женские, ARGO, размер 38', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (20, N'C436G5', N'Ботинки', 1, 10200.0000, 1, 5, 1, CAST(15.00 AS Decimal(4, 2)), CAST(9.00 AS Decimal(6, 2)), N'Ботинки женские, ARGO, размер 40', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (21, N'F427R5', N'Ботинки', 1, 11800.0000, 2, 4, 1, CAST(15.00 AS Decimal(4, 2)), CAST(11.00 AS Decimal(6, 2)), N'Ботинки на молнии с декоративной пряжкой FRAU', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (22, N'N457T5', N'Полуботинки', 1, 4600.0000, 1, 6, 1, CAST(3.00 AS Decimal(4, 2)), CAST(13.00 AS Decimal(6, 2)), N'Полуботинки Ботинки черные зимние, мех', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (23, N'D364R4', N'Туфли', 1, 12400.0000, 1, 1, 1, CAST(16.00 AS Decimal(4, 2)), CAST(5.00 AS Decimal(6, 2)), N'Туфли Luiza Belly женские Kate-lazo черные из натуральной замши', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (24, N'S326R5', N'Тапочки', 1, 9900.0000, 2, 6, 2, CAST(17.00 AS Decimal(4, 2)), CAST(15.00 AS Decimal(6, 2)), N'Мужские кожаные тапочки "Профиль С.Дали" ', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (25, N'L754R4', N'Полуботинки', 1, 1700.0000, 1, 1, 1, CAST(2.00 AS Decimal(4, 2)), CAST(7.00 AS Decimal(6, 2)), N'Полуботинки kari женские WB2020SS-26, размер 38, цвет: черный', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (26, N'M542T5', N'Кроссовки', 1, 2800.0000, 2, 4, 2, CAST(18.00 AS Decimal(4, 2)), CAST(3.00 AS Decimal(6, 2)), N'Кроссовки мужские TOFA', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (27, N'D268G5', N'Туфли', 1, 4399.0000, 2, 4, 1, CAST(3.00 AS Decimal(4, 2)), CAST(12.00 AS Decimal(6, 2)), N'Туфли Rieker женские демисезонные, размер 36, цвет коричневый', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (28, N'T324F5', N'Сапоги', 1, 4699.0000, 1, 6, 1, CAST(2.00 AS Decimal(4, 2)), CAST(5.00 AS Decimal(6, 2)), N'Сапоги замша Цвет: синий', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (29, N'K358H6', N'Тапочки', 1, 599.0000, 1, 4, 2, CAST(20.00 AS Decimal(4, 2)), CAST(2.00 AS Decimal(6, 2)), N'Тапочки мужские син р.41', N'')
-INSERT [dbo].[Product] ([id], [Article], [Name], [Unitid], [Price], [ProviderId], [ProducerId], [CategoryId], [Discount], [AmountinStock], [Description], [Photo]) VALUES (30, N'H535R5', N'Ботинки', 1, 2300.0000, 2, 4, 1, CAST(2.00 AS Decimal(4, 2)), CAST(7.00 AS Decimal(6, 2)), N'Женские Ботинки демисезонные', N'')
-SET IDENTITY_INSERT [dbo].[Product] OFF
-GO
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (1, 1, 1, 2)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (2, 2, 3, 1)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (3, 3, 5, 10)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (4, 4, 7, 4)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (5, 5, 1, 2)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (6, 6, 3, 1)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (7, 7, 5, 10)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (8, 8, 7, 4)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (9, 9, 9, 1)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (10, 10, 11, 5)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (11, 1, 2, 2)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (12, 2, 4, 1)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (13, 3, 6, 10)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (14, 4, 8, 4)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (15, 5, 2, 2)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (16, 6, 4, 1)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (17, 7, 6, 10)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (18, 8, 8, 4)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (19, 9, 10, 1)
-INSERT [dbo].[ProductInOrder] ([id], [OrderId], [ProductId], [Amount]) VALUES (20, 10, 12, 5)
-GO
-INSERT [dbo].[Provider] ([id], [name]) VALUES (1, N'Kari')
-INSERT [dbo].[Provider] ([id], [name]) VALUES (2, N'Обувь для вас')
-GO
-INSERT [dbo].[Role] ([id], [Name]) VALUES (1, N'Администратор')
-INSERT [dbo].[Role] ([id], [Name]) VALUES (2, N'Менеджер')
-INSERT [dbo].[Role] ([id], [Name]) VALUES (3, N'Авторизированный клиент')
-GO
-INSERT [dbo].[Unit] ([id], [Name]) VALUES (1, N'шт.')
-GO
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (1, N'Никифорова', N'Весения', N'Николаевна', N'94d5ous@gmail.com', N'uzWC67', 1)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (2, N'Сазонов', N'Руслан', N'Германович', N'uth4iz@mail.com', N'2L6KZG', 1)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (3, N'Одинцов', N'Серафим', N'Артёмович', N'yzls62@outlook.com', N'JlFRCZ', 1)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (4, N'Степанов', N'Михаил', N'Артёмович', N'1diph5e@tutanota.com', N'8ntwUp', 2)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (5, N'Ворсин', N'Петр', N'Евгеньевич', N'tjde7c@yahoo.com', N'YOyhfR', 2)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (6, N'Старикова', N'Елена', N'Павловна', N'wpmrc3do@tutanota.com', N'RSbvHv', 2)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (7, N'Михайлюк', N'Анна', N'Вячеславовна', N'5d4zbu@tutanota.com', N'rwVDh9', 3)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (8, N'Ситдикова', N'Елена', N'Анатольевна', N'ptec8ym@yahoo.com', N'LdNyos', 3)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (9, N'Ворсин', N'Петр', N'Евгеньевич', N'1qz4kw@mail.com', N'gynQMT', 3)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (10, N'Старикова', N'Елена', N'Павловна', N'4np6se@mail.com', N'AtnDjr', 3)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (11, N'Админ', N'Админ', N'Админ', N'1', N'1', 1)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (12, N'2', N'2', N'2', N'2', N'2', 2)
-INSERT [dbo].[User] ([id], [Surname], [Name], [Patronmic], [Login], [Password], [RoleId]) VALUES (13, N'3', N'3', N'3', N'3', N'3', 3)
-GO
-SET ANSI_PADDING ON
-GO
-/****** Object:  Index [idx_jobs_queue]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Index [idx_jobs_queue] ******/
 CREATE NONCLUSTERED INDEX [idx_jobs_queue] ON [dbo].[jobs]
 (
 	[queue] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-/****** Object:  Index [idx_messages_user_id]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Index [idx_messages_user_id] ******/
 CREATE NONCLUSTERED INDEX [idx_messages_user_id] ON [dbo].[messages]
 (
 	[user_id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-SET ANSI_PADDING ON
-GO
-/****** Object:  Index [idx_notifications_notifiable]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Index [idx_notifications_notifiable] ******/
 CREATE NONCLUSTERED INDEX [idx_notifications_notifiable] ON [dbo].[notifications]
 (
 	[notifiable_type] ASC,
 	[notifiable_id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-SET ANSI_PADDING ON
-GO
-/****** Object:  Index [idx_paintings_perceptual_hash]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Index [idx_paintings_perceptual_hash] ******/
 CREATE NONCLUSTERED INDEX [idx_paintings_perceptual_hash] ON [dbo].[paintings]
 (
 	[perceptual_hash] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-/****** Object:  Index [idx_paintings_user_id]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Index [idx_paintings_user_id] ******/
 CREATE NONCLUSTERED INDEX [idx_paintings_user_id] ON [dbo].[paintings]
 (
 	[user_id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-/****** Object:  Index [IX_Product]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Index [IX_Product] ******/
 CREATE NONCLUSTERED INDEX [IX_Product] ON [dbo].[Product]
 (
 	[id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-SET ANSI_PADDING ON
-GO
-/****** Object:  Index [UQ_users_email]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Index [UQ_users_email] ******/
 ALTER TABLE [dbo].[users] ADD  CONSTRAINT [UQ_users_email] UNIQUE NONCLUSTERED 
 (
 	[email] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-SET ANSI_PADDING ON
-GO
-/****** Object:  Index [UQ_users_username]    Script Date: 28.04.2026 0:32:06 ******/
+/****** Object:  Index [UQ_users_username] ******/
 ALTER TABLE [dbo].[users] ADD  CONSTRAINT [UQ_users_username] UNIQUE NONCLUSTERED 
 (
 	[username] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
+/****** Object:  Default constraints ******/
 ALTER TABLE [dbo].[messages] ADD  DEFAULT ((0)) FOR [is_read]
 GO
 ALTER TABLE [dbo].[paintings] ADD  DEFAULT ('pending') FOR [status]
 GO
 ALTER TABLE [dbo].[users] ADD  DEFAULT ((0)) FOR [is_admin]
 GO
+/****** Object:  Foreign keys ******/
 ALTER TABLE [dbo].[messages]  WITH CHECK ADD  CONSTRAINT [FK_messages_user_id] FOREIGN KEY([user_id])
 REFERENCES [dbo].[users] ([id])
 ON DELETE CASCADE
@@ -649,6 +496,7 @@ REFERENCES [dbo].[Role] ([id])
 GO
 ALTER TABLE [dbo].[User] CHECK CONSTRAINT [FK_User_Role]
 GO
+/****** Object:  Check constraint ******/
 ALTER TABLE [dbo].[paintings]  WITH CHECK ADD  CONSTRAINT [CK_paintings_status] CHECK  (([status]='manual_review' OR [status]='rejected' OR [status]='approved' OR [status]='pending'))
 GO
 ALTER TABLE [dbo].[paintings] CHECK CONSTRAINT [CK_paintings_status]
